@@ -1,0 +1,25 @@
+{
+  "name": "tokyo-ward-procedures-mcp",
+  "version": "0.1.0",
+  "description": "MCP server: Tokyo ward procedures for foreign (Korean) residents — moving-in, health insurance, My Number card",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node src/index.js",
+    "start:http": "node src/http.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "tokyo-ward-procedures-mcp": "src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "zod": "^4.6.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
